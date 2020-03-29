@@ -1,10 +1,9 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "Web Server",
-  "main": "index.js",
+  "description": "Weather App created using Node.js",
   "scripts": {
-    "start": "nodemon src/app.js -e js,hbs"
+    "start": "node src/app.js"
   },
   "author": "Romik Guha Anjoy",
   "license": "ISC",
