@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Weather App created using Node.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "author": "Romik Guha Anjoy",
   "license": "ISC",
@@ -11,5 +12,8 @@
     "express": "^4.17.1",
     "hbs": "^4.1.0",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
